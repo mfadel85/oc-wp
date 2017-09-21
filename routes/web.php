@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+// test
 Route::get('/dashboard', 'Importer@dashboard');
 Route::get('/tags', 'Importer@getTags');
 
